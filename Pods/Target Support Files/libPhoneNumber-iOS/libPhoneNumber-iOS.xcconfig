@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/libPhoneNumber-iOS" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AFViewShaker" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/MMDrawerController" "${PODS_ROOT}/Headers/Public/Mantle" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/UIImage-ResizeMagick" "${PODS_ROOT}/Headers/Public/UINavigationBar+Addition" "${PODS_ROOT}/Headers/Public/UINavigationItem+Loading" "${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS"
+OTHER_LDFLAGS = -framework "CoreTelephony"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

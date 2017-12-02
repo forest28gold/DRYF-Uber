@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HCBSheduleHeaderView">
+            <connections>
+                <outlet property="titleLabel" destination="w5K-8n-jJi" id="dRU-5g-m1A"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="53"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5K-8n-jJi">
+                    <rect key="frame" x="15" y="0.0" width="279" height="53"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="w5K-8n-jJi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2hh-qb-js7"/>
+                <constraint firstItem="w5K-8n-jJi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="WWt-wH-MPx"/>
+                <constraint firstAttribute="bottom" secondItem="w5K-8n-jJi" secondAttribute="bottom" id="WY1-8X-PCM"/>
+                <constraint firstAttribute="trailing" secondItem="w5K-8n-jJi" secondAttribute="trailing" constant="15" id="m8Q-wH-X5Y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="12.5" y="-425.5"/>
+        </view>
+    </objects>
+</document>
